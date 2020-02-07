@@ -11,3 +11,4 @@ RUN /tmp/jruby/jruby-1.6.5/bin/jruby -v
 ENV PATH="/tmp/jruby/jruby-1.6.5/bin:${PATH}"
 ENV JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 ENV JRE_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
+ENV JRUBY_HOME="/tmp/jruby/jruby-1.6.5"
